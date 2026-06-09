@@ -1,0 +1,25 @@
+# Visual Studio 자동 생성 파일
+.vs/
+*.suo
+*.wsuo
+*.user
+*.vsidx
+
+# 빌드 산출물
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+*.ipch
+*.obj
+*.exe
+*.pdb
+
+# VS 데이터베이스/캐시
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.sqlite
+Browse.VC.*
