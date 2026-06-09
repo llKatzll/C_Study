@@ -1,11 +1,17 @@
 #include <stdio.h>
 
-//내가 좋아하는 숫자는 : 9  (문자)
-// 내가 좋아하는 숫자는 : 9  (숫자)
-
 int main() {
 
-	printf("내가 좋아하는 숫자는 : %d\n내가 좋아하는 숫자는 : % c\n", 9 , '9');
+	/*
+	
+	char c;
+	int shift;
+	scanf_s("%c %d", &c, 1, &shift);
+
+	char result = (c - 'A' + shift) % 26 + 'A';
+	printf("%c\n", result);
 
 	return 0;
+
+	*/
 }
