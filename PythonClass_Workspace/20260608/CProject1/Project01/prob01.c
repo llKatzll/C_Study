@@ -139,7 +139,7 @@ int main() {
 	//else if (BMI < 25) printf("표준");
 	//else printf("과체중");
 	
-	int A = 10;
+	/*int A = 10;
 
 	switch (A) {
 	case 10:
@@ -148,7 +148,37 @@ int main() {
 		printf("잘가");
 	default:
 		printf("반가워");
+	}*/
+		
+	//학점 계산기 구현, 하지만, if문 사용 금지. Switch문만을 사용할 것.
+	//입력: 95   →   A
+	//입력: 82   →   B
+	//입력 : 77   →   C
+	//입력 : 55   →   F
+
+	int score;
+
+	scanf_s("%d", &score);
+
+	score = score / 10;
+
+	switch (score) {
+	case 10:
+	case 9:
+		printf("\nA");
+		break;
+	case 8:
+		printf("\nB");
+		break;
+	case 7:
+	case 6:
+		printf("\nC");
+		break;
+	default:
+		printf("\nF");
+		break;
 	}
+
 
 	return 0;
 }
