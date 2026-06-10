@@ -52,7 +52,7 @@ int main() {
 	//입력: 1 A 3   (한 글자씩)
 	//출력: 419
 
-	char amount;
+	/*char amount;
 
 	int result = 0;
 	
@@ -65,12 +65,90 @@ int main() {
 		else if (amount >= 'A' && amount <= 'F') {
 			amount = amount - 'A' +10;
 		}
+		else if (amount >= 'a' && amount <= 'f') {
+			amount = amount - 'a' + 10;
+		}
 
 		result = result * 16 + amount;
 	}
 	
-	printf("%d", result);
+	printf("%d", result);*/
 
 
 
+	//단(2~9)을 입력받아 구구단을 출력하되, 결과값이 짝수면 [짝], 홀수면 [홀] 을 뒤에 붙이기.
+
+	/*입력: 3
+	출력 :
+	3 x 1 = 3[홀]
+	3 x 2 = 6[짝]
+	3 x 3 = 9[홀]
+	3 x 4 = 12[짝]
+	...
+	3 x 9 = 27[홀]*/
+
+	/*int input;
+
+	scanf_s("%d", &input);
+
+	for (int i = 1; i <= 9; i++) {
+		printf("\n%d x %d = %d", input, i, input * i);
+
+		if ((input * i) % 2 == 0) {
+			printf(" [짝]");
+		}
+		else {
+			printf(" [홀]");
+		}
+	}*/
+
+	// 6세 이하의 어린이와 70세 이상의 어른들은 무료 입장
+	// 그 외에는 3,000원의 입장료를 받는다
+
+	/*int age;
+
+	printf("나이가?\n");
+	scanf_s("%d", &age);
+
+	if (age <= 6 || age >= 70) {
+		printf("공짜로 들어가십쇼");
+	}
+	else {
+		printf("3000원~");
+	};*/
+
+	
+	//bmi 구하기
+	// BMI는 체중을 키의 제곱으로 나눈다(단위 체중은 kg,키는 m)
+	// BMI 20미만:저체중,20~24.9:표준,25이상:과체중
+	
+	//int kg;
+	//double height_cm, m, BMI;
+
+	//printf("몸무게(kg) 입력 : ");
+	//scanf_s("%d", &kg);
+	//printf("키(cm) 입력 : ");
+	//scanf_s("%lf", &height_cm);
+
+	//m = height_cm / 100; // cm -> m 변환
+	//BMI = kg / (m * m);
+
+	//printf("BMI : %.1lf\n", BMI);
+
+	//if (BMI < 20) printf("저체중");
+	//else if (BMI < 25) printf("표준");
+	//else printf("과체중");
+	
+	int A = 10;
+
+	switch (A) {
+	case 10:
+		printf("안녕");
+	case 11:
+		printf("잘가");
+	default:
+		printf("반가워");
+	}
+
+	return 0;
 }
