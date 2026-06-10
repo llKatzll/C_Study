@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{5B43EF86-B393-4CF4-A3ED-15736A0D2687}|Project01\\Project01.vcxproj|solutionrelative:Project01\\prob01.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{56B77D27-FCBB-41C7-8974-B9B132679503}|Project02\\Project02.vcxproj|C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project02\\ex02_01.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{56B77D27-FCBB-41C7-8974-B9B132679503}|Project02\\Project02.vcxproj|solutionrelative:Project02\\ex02_01.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B43EF86-B393-4CF4-A3ED-15736A0D2687}|Project01\\Project01.vcxproj|C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_21.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5B43EF86-B393-4CF4-A3ED-15736A0D2687}|Project01\\Project01.vcxproj|solutionrelative:Project01\\ex01_21.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -107,19 +111,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ex01_21.c",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_21.c",
-              "RelativeDocumentMoniker": "Project01\\ex01_21.c",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_21.c",
-              "RelativeToolTip": "Project01\\ex01_21.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Title": "ex02_01.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project02\\ex02_01.c",
+              "RelativeDocumentMoniker": "Project02\\ex02_01.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project02\\ex02_01.c",
+              "RelativeToolTip": "Project02\\ex02_01.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-06-10T00:05:48.356Z",
+              "WhenOpened": "2026-06-10T00:38:26.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ex01_13.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_13.c",
               "RelativeDocumentMoniker": "Project01\\ex01_13.c",
@@ -131,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ex01_14.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_14.c",
               "RelativeDocumentMoniker": "Project01\\ex01_14.c",
@@ -143,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ex01_15.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_15.c",
               "RelativeDocumentMoniker": "Project01\\ex01_15.c",
@@ -155,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ex01_16.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_16.c",
               "RelativeDocumentMoniker": "Project01\\ex01_16.c",
@@ -167,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ex01_17.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_17.c",
               "RelativeDocumentMoniker": "Project01\\ex01_17.c",
@@ -179,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ex01_18.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_18.c",
               "RelativeDocumentMoniker": "Project01\\ex01_18.c",
@@ -191,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ex01_19.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_19.c",
               "RelativeDocumentMoniker": "Project01\\ex01_19.c",
@@ -203,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ex01_20.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_20.c",
               "RelativeDocumentMoniker": "Project01\\ex01_20.c",
@@ -222,14 +226,27 @@
               "RelativeDocumentMoniker": "Project01\\prob01.c",
               "ToolTip": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\prob01.c",
               "RelativeToolTip": "Project01\\prob01.c",
-              "ViewState": "AgIAABMAAAAAAAAAAAAjwCwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAjwEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-06-09T08:20:09.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
+              "Title": "ex01_21.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_21.c",
+              "RelativeDocumentMoniker": "Project01\\ex01_21.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_21.c",
+              "RelativeToolTip": "Project01\\ex01_21.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-06-10T00:05:48.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ex01_11.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_11.c",
               "RelativeDocumentMoniker": "Project01\\ex01_11.c",
@@ -241,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ex01_12.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_12.c",
               "RelativeDocumentMoniker": "Project01\\ex01_12.c",
@@ -253,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ex01_10.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_10.c",
               "RelativeDocumentMoniker": "Project01\\ex01_10.c",
@@ -265,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ex01_09.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_09.c",
               "RelativeDocumentMoniker": "Project01\\ex01_09.c",
@@ -277,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ex01_08.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_08.c",
               "RelativeDocumentMoniker": "Project01\\ex01_08.c",
@@ -289,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ex01_07.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_07.c",
               "RelativeDocumentMoniker": "Project01\\ex01_07.c",
@@ -301,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ex01_06.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_06.c",
               "RelativeDocumentMoniker": "Project01\\ex01_06.c",
@@ -313,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ex01_05.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_05.c",
               "RelativeDocumentMoniker": "Project01\\ex01_05.c",
@@ -325,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ex01_04.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_04.c",
               "RelativeDocumentMoniker": "Project01\\ex01_04.c",
@@ -337,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ex01_03.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_03.c",
               "RelativeDocumentMoniker": "Project01\\ex01_03.c",
@@ -349,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ex01_01.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_01.c",
               "RelativeDocumentMoniker": "Project01\\ex01_01.c",
@@ -361,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ex01_02.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_02.c",
               "RelativeDocumentMoniker": "Project01\\ex01_02.c",
@@ -373,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ex01_00.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_Study\\PythonClass_Workspace\\20260608\\CProject1\\Project01\\ex01_00.c",
               "RelativeDocumentMoniker": "Project01\\ex01_00.c",
