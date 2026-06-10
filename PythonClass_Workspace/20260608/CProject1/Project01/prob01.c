@@ -157,7 +157,7 @@ int main() {
 	//입력 : 77   →   C
 	//입력 : 55   →   F
 
-	int score;
+	/*int score;
 
 	scanf_s("%d", &score);
 
@@ -178,7 +178,7 @@ int main() {
 	default:
 		printf("\nF");
 		break;
-	}
+	}*/
 	//switch의 fall through 기믹, 100점으로 case 10 조건을 충족했을때 break가 없으므로 밑으로 내려가 case 9의 A등급을 받아내는 아주 멋진 테크닉.
 	//switch문 case에는 정수만 넣어야한다. 실수를 넣으면 에러가 난다.
 	//switch문 case에는 연산자를 넣을 수 없다.
@@ -194,13 +194,21 @@ int main() {
 
 	/*int a, b, c;
 
-	scanf_s("%d,%d,%d", &a, &b, &c);
+	scanf_s("%d %d %d", &a, &b, &c);
 
 	if (a + b > c && b + c > a && a + c > b) {
-		
-	}*/
 
-	char sel;
+		if (a == b && b == c) printf("정삼각형");
+
+		else if (a == b || b == c || a == c) printf("이등변삼각형");
+
+		else printf("부등변삼각형");
+	}
+	else {
+		printf("삼각형 아님");
+	};*/
+
+	/*char sel;
 
 	printf("M 오전 A 오후 E 저녁\n");
 	printf("해당하는 영문을 입력하세요 : ");
@@ -222,6 +230,47 @@ int main() {
 	default:
 		printf("잘못된 입력\n");
 		break;
+	}*/
+
+	//출금액(정수)을 받아서 5만/1만/5천/1천 권으로 최소 장수 분배. 단 출금액이 1000으로 안 나누어떨어지면 "1000원 단위로만" 출력.
+	
+	//입력: 87000
+	
+	//출력:
+	//5만원 : 1장
+	//1만원 : 3장
+	//5천원 : 1장
+	//1천원 : 2장
+	
+	//입력 : 87500   →   1000원 단위로만 가능
+
+	int money;
+
+	int oman = 0;
+	int man = 0;
+	int five = 0;
+	int one = 0;
+
+	scanf_s("%d", &money);
+
+	if (money % 1000 != 0) {
+		printf("1000원 단위로만 가능");
 	}
+	else {
+		oman = money / 50000;
+		money = money % 50000;
+
+		man = money / 10000;
+		money = money % 10000;
+
+		five = money / 5000;
+		money = money % 5000;
+
+		one = money / 1000;
+		money = money % 1000;
+
+		printf("5만원 : %d장\n1만원 : %d장\n5천원 : %d장\n1천원 : %d장", oman, man, five, one);
+	}
+
 	return 0;
 }
