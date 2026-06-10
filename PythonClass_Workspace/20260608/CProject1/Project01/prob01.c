@@ -151,6 +151,7 @@ int main() {
 	}*/
 		
 	//학점 계산기 구현, 하지만, if문 사용 금지. Switch문만을 사용할 것.
+	//추가점수 요소 : case를 5번만 사용한다.
 	//입력: 95   →   A
 	//입력: 82   →   B
 	//입력 : 77   →   C
@@ -178,7 +179,49 @@ int main() {
 		printf("\nF");
 		break;
 	}
+	//switch의 fall through 기믹, 100점으로 case 10 조건을 충족했을때 break가 없으므로 밑으로 내려가 case 9의 A등급을 받아내는 아주 멋진 테크닉.
+	//switch문 case에는 정수만 넣어야한다. 실수를 넣으면 에러가 난다.
+	//switch문 case에는 연산자를 넣을 수 없다.
 
+	//변 3개 길이를 입력받아 어떤 삼각형인지 판정한다.
+	//세 변으로 삼각형이 안 되면(아무 두 변의 합 ≤ 나머지 변) → "삼각형 아님" 출력
+	//세 변 같으면 정삼각형 / 두 변만 같으면 이등변 / 다 다르면 부등변 출력
 
+	//입력: 3 3 3   →   정삼각형
+	//입력: 3 3 5   →   이등변삼각형
+	//입력 : 3 4 5   →   부등변삼각형
+	//입력 : 1 2 9   →   삼각형 아님
+
+	/*int a, b, c;
+
+	scanf_s("%d,%d,%d", &a, &b, &c);
+
+	if (a + b > c && b + c > a && a + c > b) {
+		
+	}*/
+
+	char sel;
+
+	printf("M 오전 A 오후 E 저녁\n");
+	printf("해당하는 영문을 입력하세요 : ");
+	scanf_s("%c", &sel, 1);
+
+	switch (sel) {
+	case 'M':
+	case 'm':
+		printf("Morning\n");
+		break;
+	case 'A':
+	case 'a':
+		printf("Afternoon\n");
+		break;
+	case 'E':
+	case 'e':
+		printf("Evening\n");
+		break;
+	default:
+		printf("잘못된 입력\n");
+		break;
+	}
 	return 0;
 }
