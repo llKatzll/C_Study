@@ -244,7 +244,7 @@ int main() {
 	
 	//입력 : 87500   →   1000원 단위로만 가능
 
-	int money;
+	/*int money;
 
 	int oman = 0;
 	int man = 0;
@@ -270,7 +270,7 @@ int main() {
 		money = money % 1000;
 
 		printf("5만원 : %d장\n1만원 : %d장\n5천원 : %d장\n1천원 : %d장", oman, man, five, one);
-	}
+	}*/
 
 	return 0;
 }
