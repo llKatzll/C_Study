@@ -65,28 +65,26 @@ int main() {
 	//	break;
 	//}
 
-	int code; // 코드 번호
-	int amount; // 사용량
-	double basic; // 기본 요금
-	double price; // kw당 요금
-	double tax_rate = 0; // 세금 비율
-	double total; // 전체 요금
-	double tax; // 세금
+	int code;
+	int amount;
 
 	printf("코드 번호를 입력하세요(1 가정용, 2 산업용, 3 교육용):");
-	scanf_s("%d", &code);//
+	scanf_s("%d", &code);
 	printf("전기 사용량을 입력하세요(kw):");
 	scanf_s("%d", &amount);
 
 	switch (code) {
 	case 1: //가정용
-		printf("\n전기요금 : %.2lf", (1130 + (amount * 127.8)) * 0.09);
+		printf("\n전기요금 : %.2lf",
+			(1130 + (amount * 127.8)) * 1.09);  // base * (1 + 세율)
 		break;
 	case 2: //산업용
-		printf("\n전기요금 : %.2lf", (660 + (amount * 88.5)) * 0.08);
+		printf("\n전기요금 : %.2lf",
+			(660 + (amount * 88.5)) * 1.08);
 		break;
 	case 3: //교육용
-		printf("\n전기요금 : %.2lf", (370 + (amount * 52)) * 0.05);
+		printf("\n전기요금 : %.2lf",
+			(370 + (amount * 52)) * 1.05);
 		break;
 	default:
 		printf("\n잘못된 코드입니다\n");
