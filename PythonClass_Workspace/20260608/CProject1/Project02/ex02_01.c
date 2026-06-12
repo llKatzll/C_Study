@@ -166,37 +166,39 @@ int main() {
 		}
 	}*/
 
-	int n, total = 0;
+	//int n, total = 0;
 
-	scanf_s("%d", &n);
+	//scanf_s("%d", &n);
 
-	for (int dan = 1; dan <= n; dan++) {      // ¹Ù±ù: 1~N´Ü
-		for (int i = 1; i <= 9; i++) {        // ¾ÈÂÊ: ¡¿1~¡¿9
-			int result = dan * i;
-			total += result;                  // ÃÑÇÕ ´©Àû
+	//for (int dan = 1; dan <= n; dan++) {      // ¹Ù±ù: 1~N´Ü
+	//	for (int i = 1; i <= 9; i++) {        // ¾ÈÂÊ: ¡¿1~¡¿9
+	//		int result = dan * i;
+	//		total += result;                  // ÃÑÇÕ ´©Àû
 
-			printf("%d x %d = %d ", dan, i, result);   // 10Áø¼ö
+	//		printf("%d x %d = %d ", dan, i, result);   // 10Áø¼ö
 
-			// 16Áø¼ö Á÷Á¢ º¯È¯
-			printf("(0x");
-			if (result < 16) {
-				if (result < 10) printf("%c", '0' + result);
-				else             printf("%c", 'A' + result - 10);
-			} else {
-				int high = result / 16;
-				int low  = result % 16;
-				if (high < 10) printf("%c", '0' + high);
-				else           printf("%c", 'A' + high - 10);
-				if (low < 10)  printf("%c", '0' + low);
-				else           printf("%c", 'A' + low - 10);
-			}
-			printf(") ");
+	//		// 16Áø¼ö Á÷Á¢ º¯È¯
+	//		printf("(0x");
+	//		if (result < 16) {
+	//			if (result < 10) printf("%c", '0' + result);
+	//			else             printf("%c", 'A' + result - 10);
+	//		} else {
+	//			int high = result / 16;
+	//			int low  = result % 16;
+	//			if (high < 10) printf("%c", '0' + high);
+	//			else           printf("%c", 'A' + high - 10);
+	//			if (low < 10)  printf("%c", '0' + low);
+	//			else           printf("%c", 'A' + low - 10);
+	//		}
+	//		printf(") ");
 
-			// Â¦È¦ (»ïÇ×)
-			printf("%s\n", (result % 2 == 0) ? "[Â¦]" : "[È¦]");
-		}
-	}
-	printf("ÃÑÇÕ: %d", total);
+	//		// Â¦È¦ (»ïÇ×)
+	//		printf("%s\n", (result % 2 == 0) ? "[Â¦]" : "[È¦]");
+	//	}
+	//}
+	//printf("ÃÑÇÕ: %d", total);
+
+
 
 
 
